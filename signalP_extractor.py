@@ -215,7 +215,7 @@ This tool will extract:
 col1, col2 = st.columns(2)
 
 with col1:
-    fasta_file = st.file_uploader("Upload FASTA file (proteome) (.faa/.fa/.fasta)", type=["faa", "fa", "fasta"], help="Example: 5.faa")
+    fasta_file = st.file_uploader("Upload FASTA file (proteome) (.faa/.fa/.fasta)", type=["faa", "fa", "fasta"], help="Example: .faa")
     sigp_file = st.file_uploader("Upload SignalP result (prediction_results.txt or output.gff3)", type=["txt", "gff3", "gff"], help="Prediction results from SignalP")
 
 with col2:
