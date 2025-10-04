@@ -200,7 +200,7 @@ st.set_page_config(page_title="SignalP extractor", layout="wide")
 st.title("SignalP → Signal peptide & mature protein extractor")
 st.markdown(
     """
-Upload a FASTA proteome (e.g. `5.faa`) and a SignalP **prediction_results.txt** file or a **GFF3** output.
+Upload a FASTA proteome (e.g. `.faa`) and a SignalP **prediction_results.txt** file or a **GFF3** output.
 This tool will extract:
 - signal peptides (N-terminal up to cleavage site)
 - mature proteins (sequence after cleavage)
